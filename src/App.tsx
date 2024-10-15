@@ -8,7 +8,7 @@ import EducationPage from "./components/mains/Education.tsx";
 import ExperiencesPage from "./components/mains/Experiences.tsx";
 import SkillsPage from "./components/mains/Skills.tsx";
 import ReferencesPage from "./components/mains/References.tsx";
-import Calculator from "./components/mains/Calculator.tsx";
+import MainCalculator from "./components/mains/MainCalculator.tsx";
 
 import styled from "styled-components";
 
@@ -43,7 +43,7 @@ const Root = () => {
                     <Route path="/education" element={<EducationPage/>} />
                     <Route path="/experiences" element={<ExperiencesPage/>} />
                     <Route path="/skills" element={<SkillsPage/>} />
-                    <Route path="/projects" element={<Calculator/>} />
+                    <Route path="/projects" element={<MainCalculator/>} />
                     <Route path="/references" element={<ReferencesPage/>} />
                 </Routes>
             </Container>

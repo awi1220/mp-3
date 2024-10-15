@@ -18,7 +18,7 @@ const CalcContainer = styled.div`
   align-items: center;
 `;
 
-export default function Calculator() {
+export default function MainCalculator() {
     const {
         firstInput,
         secondInput,
