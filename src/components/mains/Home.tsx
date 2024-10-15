@@ -39,7 +39,7 @@ export default function HomePage() {
     return (
         <MainDiv>
             <StyledH2>Home</StyledH2>
-            <StyledImg src="../../../public/headshot.jpg" alt="headshot of Amy Wi" width="450" height="650" />
+            <StyledImg src="/headshot.jpg" alt="headshot of Amy Wi" width="450" height="650" />
             <p>
                 My name is Ah Hyun Wi but my preferred name is Amy! I'm currently finishing
                 my Master's degree in the BA/MS program in Biology at <a href="https://www.bu.edu/" target="_blank">Boston University</a>. I'm also a
